@@ -104,7 +104,7 @@ static CGSize CGSizeScale(CGSize size, CGFloat scale) {
     [self.collectionView reloadData];
     
     // Scroll to bottom
-    if (self.fetchResult.count > 0 && self.isMovingToParentViewController && !self.disableScrollToBottom) {
+    if (self.fetchResult.count > 0 /*&& self.isMovingToParentViewController && !self.disableScrollToBottom*/) {
         // when presenting as a .FormSheet on iPad, the frame is not correct until just after viewWillAppear:
         // dispatching to the main thread waits one run loop until the frame is update and the layout is complete
         dispatch_async(dispatch_get_main_queue(), ^{
