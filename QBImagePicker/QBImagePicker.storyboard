@@ -12,7 +12,7 @@
         <!--Photos-->
         <scene sceneID="swb-gz-Gt9">
             <objects>
-                <tableViewController storyboardIdentifier="QBAlbumsViewController" id="QL5-wR-LYt" customClass="QBAlbumsViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="QBAlbumsViewController" extendedLayoutIncludesOpaqueBars="YES" id="QL5-wR-LYt" customClass="QBAlbumsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="86" sectionHeaderHeight="22" sectionFooterHeight="22" id="66K-TS-Yoc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,7 +124,7 @@
         <!--Album Title-->
         <scene sceneID="ozY-oO-5JA">
             <objects>
-                <collectionViewController storyboardIdentifier="QBAssetsViewController" id="QiH-NZ-ZGN" customClass="QBAssetsViewController" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="QBAssetsViewController" extendedLayoutIncludesOpaqueBars="YES" id="QiH-NZ-ZGN" customClass="QBAssetsViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="sD2-zK-ryo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
