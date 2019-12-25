@@ -124,7 +124,7 @@
         <!--Album Title-->
         <scene sceneID="ozY-oO-5JA">
             <objects>
-                <collectionViewController storyboardIdentifier="QBAssetsViewController" id="QiH-NZ-ZGN" customClass="QBAssetsViewController" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="QBAssetsViewController" automaticallyAdjustsScrollViewInsets="NO" id="QiH-NZ-ZGN" customClass="QBAssetsViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="sD2-zK-ryo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
