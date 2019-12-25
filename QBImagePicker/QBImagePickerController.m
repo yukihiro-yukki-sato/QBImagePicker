@@ -58,6 +58,18 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[UINavigationBar appearance] setTranslucent:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[UINavigationBar appearance] setTranslucent:NO];
+}
+
 - (void)setUpAlbumsViewController
 {
     // Add QBAlbumsViewController as a child
